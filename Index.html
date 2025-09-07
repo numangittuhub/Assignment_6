@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#F0FDF4]">
+    <header>
+        <nav class="flex justify-between p-5 bg-green-700 items-center">
+            <h2 class="text-3xl font-bold text-white">Green Earth</h2>
+        <ul class="flex text-white text-[17px] gap-2 font-semibold">
+            <li><a href="">About</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Plant a Tree</a></li>
+        </ul>
+        <button class="btn btn-warning rounded-[999px] text-[#15803D]">Plant a Tree</button>
+        </nav>
+         <section class="banner flex justify-between gap-2 bg-[#CFF0DC]">
+            <img class="w-[350px]" src="./assets/hero-leaf1.png" alt="">
+            <div class="description gap-2 w-[700px] flex flex-col items-center">
+                <h2 class="font-bold text-center  text-[48px]">Plant a Tree, Grow a Future</h2>
+                <p class="text-center">Join our mission to plant 1 million trees and make the Earth greener for future
+generations.</p>
+               <button class="btn btn-warning rounded-[999px font-semibold] text-[#15803D]">Get Involved</button>
+            </div> 
+            <img class="w-[350px]" src="./assets/hero-leaf2.png" alt="">
+        </section>
+    </header>
+    <main>
+        <!--grid layout-->
+       <section class="choseYourTree flex gap-5 px-[135px] mt-5">
+        <!--left sidebar for select category-->
+        <div class="categories w-[300px] border-2 ">
+            <h3 class="text-2xl">Categories</h3>
+            
+        </div>
+        <!--3 columns grid box for tree data-->
+           <div class="treeDetails">
+              <div class="grid grid-cols-3 gap-4">
+            <div class="bg-white p-4 rounded shadow">
+                 <figure class="px-10 pt-10">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      alt="Shoes"
+      class="rounded-xl" />
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title">Card Title</h2>
+    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <div class="card-actions">
+      <button class="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="text-xl font-semibold">Column 3</h3>
+                <p>Content for the third column.</p>
+            </div>
+        </div>
+           </div>
+          <div class="categories w-[250px] border-2 border-green-800">
+            <h3 class="text-2xl">Categories</h3>
+            
+        </div>  
+       </section>     
+    </main>
+</body>
+</html>
