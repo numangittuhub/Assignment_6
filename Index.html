@@ -18,7 +18,7 @@
             </ul>
             <button class="btn btn-warning rounded-[999px] text-[#15803D] mt-4 md:mt-0">Plant a Tree</button>
         </nav>
-        <section class="banner flex flex-col-reverse lg:flex-row justify-between gap-2 bg-[#CFF0DC] px-5 py-6 sm:py-8 md:py-10">
+        <section class="banner flex flex-col-reverse lg:flex-row justify-between gap-2 bg-[#CFF0DC] px-5 py-6 sm:py-8 ">
             <img class="w-full lg:w-[350px] lg:mb-0" src="./assets/hero-leaf1.png" alt="">
             <div class="description gap-2 w-full lg:w-[700px] flex flex-col items-center">
                 <h2 class="font-bold text-center text-3xl sm:text-4xl md:text-[48px]">Plant a Tree, Grow a Future</h2>
@@ -34,15 +34,19 @@
         <section class="mt-10">
             <h2 class="text-4xl font-bold text-center">Choose Your Trees</h2>
             <div class="choseYourTree flex flex-col lg:flex-row gap-4 mt-10 mx-auto max-w-7xl">
-                <div id="categories" class="w-full md:w-[200px] lg:w-[350px] border p-4 rounded-lg">
+                <div id="categories" class="w-full md:w-[200px] lg:w-[350px] p-2 rounded-lg">
                     <ul id="category_list" class="text-center text-xl pt-5 space-y-2">
-                        <li>All Trees</li>
+                       
                     </ul>
                 </div>
-                <div id="card_container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-2 md:px-5 w-full lg:w-[900px]">
+                <div id="card_container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-2 md:px-5 w-full lg:w-[900px] place-items-center">
                 </div>
                 <div class="cart w-full lg:w-[350px] p-5 bg-white mt-5 lg:mt-0 rounded-lg shadow-lg">
                     <h3 class="text-2xl font-bold">Your Cart</h3>
+                    <div id="cardList" >
+
+                    </div>
+                    <h4 id="total"></h4>
                 </div>
             </div>
         </section>
